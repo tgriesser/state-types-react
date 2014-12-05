@@ -1,0 +1,35 @@
+{
+  "name": "state-types-react",
+  "version": "0.12.0",
+  "description": "Like propTypes, but for state",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tgriesser/react-statetypes"
+  },
+  "keywords": [
+    "react",
+    "propTypes",
+    "state"
+  ],
+  "author": "Tim Griesser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tgriesser/state-types-react/issues"
+  },
+  "homepage": "https://github.com/tgriesser/state-types-react",
+  "peerDependencies": {
+    "react": "^0.12.0"
+  },
+  "devDependencies": {
+    "react": "^0.12.0",
+    "react-tools": "^0.12.0"
+  },
+  "jest": {
+    "scriptPreprocessor": "./utils/preprocessor.js",
+    "unmockedModulePathPatterns": ["./node_modules/react"]
+  }
+}
