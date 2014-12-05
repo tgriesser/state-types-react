@@ -20,7 +20,9 @@ var Component = React.createClass({
   },
 
   getInitialState: function() {
-    account: getAccount()
+    return {
+      account: getAccount()
+    }
   },
 
   render: function() {
